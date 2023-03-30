@@ -23,8 +23,8 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 170px;
-  width: 170px;
+  height: 300px;
+  width: 300px;
   overflow: hidden;
   background-color: #da291c;
   border-radius: 50%;
