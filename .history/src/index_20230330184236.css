@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: 2px;
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #00642d;
+  color: white;
+}
+
+.buttonCon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  width: 300px;
+  overflow: hidden;
+  background-color: #da291c;
+  border-radius: 50%;
+  border: 7px solid white;
+  cursor: pointer;
+}
+.buttonCon p {
+  border: none;
+  width: 100%;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+  padding: 0;
+  letter-spacing: -1px;
+}
+
+.buttonCon:hover {
+  background-color: #a31f15;
+}

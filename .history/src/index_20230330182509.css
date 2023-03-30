@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #00642d;
+  color: rgb(255, 255, 0);
+}
+
+button {
+  border: none;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+
+  background-color: #da291c;
+  color: black;
+  font-size: 20px;
+  border-radius: 1px;
+  font-weight: bold;
+  letter-spacing: -1.3px;
+}
+button p {
+  background-color: white;
+}
